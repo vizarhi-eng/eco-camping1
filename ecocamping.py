@@ -53,7 +53,7 @@ while ejecutando:
     elif opcion == 4:
         porcentaje_ocupacion = (sitios_ocupados / capacidad_maxima) * 100
         print(f"\n[ESTADO] Ocupacion actual: {sitios_ocupados}/{capacidad_maxima} sitios")
-        print(f"[ESTADO] El camping esta al {porcentaje_ocupacion:.if}% de su capacidad")
+        print(f"[ESTADO] El camping esta al {porcentaje_ocupacion:.lf}% de su capacidad")
     elif opcion == 5:
         print("Cerrando el sistema")
         ejecutando = False
